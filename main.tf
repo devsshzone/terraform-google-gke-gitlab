@@ -64,7 +64,7 @@ provider "kubernetes" {
 // Services
 module "project_services" {
   source  = "terraform-google-modules/project-factory/google//modules/project_services"
-  version = "~> 9.0"
+  version = "~> 10.1"
 
   project_id                  = var.project_id
   disable_services_on_destroy = false
